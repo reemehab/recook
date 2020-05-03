@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+       <title>Bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+       <!--NAVBAR-->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand offset-1" href="">   <img src="img/recook1.jpg" width="150" height="40" 
+           alt=""> </a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ">
+              <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="loginpage.html">log-in <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="aboutuspage.html">contact us <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="tips.html">kitchen Tips <span class="sr-only">(current)</span></a>
+            </li>
+        
+            <li class="nav-item ">
+              <a class="nav-link" href="teampage.html">Team<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          </div>
+            </nav>
+
+    
+          <br>
+
+      
+       <!--forms-->
+       <div class="containers col-md-6 mt-5" style="width: 50%; margin-left: auto; margin-right: auto;">
+        <form action="action_page.php">
+          <h2 class="mt-0"> CONTACT-US</h2>
+      
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="phone">mobile phone</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Egypt">Egypt</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="message">your message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <a class="btn btn-danger btn-lg offset-6" style="color: aliceblue;"  role="button">send a message</a> 
+        </form>
+
+        
+      </div>
+      
+      <!--adress and email-->
+      <div class="containere ">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="mt-0" style="color: black;">Let's Get In Touch!</h2>
+                <hr class="divider my-4" />
+                <p class="text-muted mb-5">
+                     Give us a call or send us an email and
+                      we will get back to you as soon as possible!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                <i class="fas fa-phone fa-3x mb-3 text-muted" src="img/1.jpg"></i>
+                <div><h5>phone</h5>+0101 333 6666</div>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+
+                <i class="fas fa-3x mb-3 text-muted" ></i
+                ><h5>E-mail</h5>
+                <a class="d-block"
+                 href="mailto:recook@gmail.com">
+                 recook@gmail.com</a>
+            </div>
+        </div>
+    </div>
+              
+        <script src="js/jquery-slim.min.js"></script>
+        <script src="js/popper.min_2.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

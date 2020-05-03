@@ -1,0 +1,108 @@
+/* for the login page */
+.featured-item{
+  margin-top:100px;
+  margin-left: 30%;
+  margin-bottom: 100px;
+  color:white;
+  width: 500px;
+  height: 520px;
+  background-color: transparent;
+  
+
+}
+  
+  .carousel{background-image: url('../img/gooo.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+body {
+  background-image: url('../img/rawi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;}
+
+h1{
+  color:  black ;
+  font-size: medium;}
+
+/*nav bar style*/
+.navbar{
+  text-align: center;}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;}
+
+.h4{
+  text-align: center;
+}
+
+h2{
+  color:rgb(168, 20, 20)  ;
+  font-size:80px;
+  text-align: center;}
+
+h3{
+  color: rgb(184, 34, 34)  ;
+  font-size:50px;
+  text-align: center;}
+
+  
+.alert{background-color: rgb(59, 55, 55);
+color: #cfcfcf;}
+
+.customize-crew
+{
+    background-color: transparent;}
+
+.card{
+width: 600px;
+height: 730px;
+margin-left: 500px;
+margin-top: 20px;}
+
+
+
+.jumbotron{
+  height: 250px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containers {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.containere{
+  margin left: 400px;
+}
